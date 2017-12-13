@@ -1,23 +1,23 @@
-import About from "Source/components/About";
-import Home from "Source/components/Home";
-import Topics from "Source/components/Topics";
+import Start from "Source/components/Start";
+import Timer from "Source/components/Timer";
+import TimeUp from "Source/components/TimeUp";
 
 const routes = [
   {
     path: '/',
     exact: true,
-    component: Home,
+    component: Start,
 
   },
   {
-    path: '/about',
+    path: '/timer',
     exact: true,
-    component: About,
+    component: Timer,
   },
   {
-    path: '/topic',
+    path: '/timeup',
     exact: true,
-    component: Topics,
+    component: TimeUp,
   }
 ];
 
